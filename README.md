@@ -1,37 +1,25 @@
-[![GitHub release](https://img.shields.io/github/release/fbrctr/fabricator.svg)]()
-[![Build Status](https://travis-ci.org/fbrctr/fabricator.svg)](https://travis-ci.org/fbrctr/fabricator) [![devDependency Status](https://david-dm.org/fbrctr/fabricator/dev-status.svg)](https://david-dm.org/fbrctr/fabricator#info=devDependencies) [![Join the chat at https://gitter.im/fbrctr/fabricator](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fbrctr/fabricator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# BANDA UI
 
-<p align="center">
-  <img src="http://fbrctr.github.io/assets/toolkit/images/logo.svg" width="500">
-</p>
+UI Toolkit for [Banda Theme](https://github.com/alexharris/banda-theme).
 
-# Fabricator
+The final product can be found [here](http://alexharris.github.io/banda-ui/).
 
-> _fabricate_ - to make by assembling parts or sections.
+The 'master' branch contains the entire project, including the Fabricator instance to generate the distribution. The 'gh-pages' branch contains the generated distribution.
 
-Fabricator is a tool for building website UI toolkits - _think ["Tiny Bootstraps, for Every Client"](http://daverupert.com/2013/04/responsive-deliverables/#tiny-bootstraps-for-every-client)_
+Built with [Fabricator](http://fbrctr.github.io/).
+
 
 ## Quick Start
 
+Clone the repo and then run:
+
 ```shell
-$ curl -L https://github.com/fbrctr/fabricator/archive/master.tar.gz | tar zx --strip 1
 $ npm start
 ```
+Read the [Fabricator Docs](http://fbrctr.github.io/docs) for more info.
 
-## Documentation
+Use the following to push just the dist to gh-pages
 
-#### [Read the docs →](http://fbrctr.github.io/docs)
-
-## Demo
-
-#### [Default Fabricator Instance →](http://fbrctr.github.io/demo)
-
-## Credits
-
-Created by [Luke Askew](http://twitter.com/lukeaskew).
-
-Logo by [Abby Putinski](https://abbyputinski.com/)
-
-## License
-
-[The MIT License (MIT)](http://opensource.org/licenses/mit-license.php)
+```shell
+$ git subtree push --prefix dist origin gh-pages
+```
