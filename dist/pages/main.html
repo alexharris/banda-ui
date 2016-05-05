@@ -21,85 +21,74 @@
 <body>
 
 
-	<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+	<!doctype html>
+<html lang="">
+<head>
 
-    <title>Starter Template for Bootstrap</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+	
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+	<!-- toolkit styles -->
+	<link rel="stylesheet" href="/assets/toolkit/styles/toolkit.css">
+	<!-- /toolkit styles -->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+</head>
 
   <body data-spy="scroll" data-target="#banda-sidebar">
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">BANDA</a>
-        </div>
-    
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">LINK</a></li>
-            <li><a href="#">LINK 2</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+
+
     <div class="container">
-        <div class="row">
-            <div  class="col-xs-12 col-sm-3" >
-                <div id="banda-sidebar">
-                    <ul class="list-unstyled banda-nav nav">
-                        <li class="banda-nav-section-title">Section 1</li>
-                        <li>
-                            <ul class="list-unstyled banda-nav-section active">
-                                <li><a href="#test1">Lorem ipsum</a></li>
-                                <li><a href="#test2">Aliquam tincidunt</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="list-unstyled banda-nav">
-                        <li class="banda-nav-section-title">Section 2</li>
-                        <li>
-                            <ul class="list-unstyled banda-nav-section active">
-                                <li><a href="#test3">Lorem ipsum</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">BANDA</a>
                 </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">LINK</a></li>
+                    <li><a href="#">LINK 2</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>        <div class="row">
+            <div class="col-xs-12 col-sm-3" id="banda-sidebar-container">
+                    <div id="banda-sidebar" data-spy="affix">
+                        <ul class="list-unstyled banda-nav nav">
+                            <li class="banda-nav-section-title">Section 1</li>
+                            <li>
+                                <ul class="list-unstyled banda-nav-section active">
+                                    <li><a href="#test1">Lorem ipsum sdfsdfsdf how wide</a></li>
+                                    <li><a href="#test2">Aliquam tincidunt</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled banda-nav nav">
+                            <li class="banda-nav-section-title">Section 2</li>
+                            <li>
+                                <ul class="list-unstyled banda-nav-section active">
+                                    <li><a href="#test3">Lorem ipsum</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
             </div>            <div class="col-xs-12 col-sm-9">
                 <section>
                     <h1>Main Test Page</h1>
@@ -109,15 +98,31 @@
                 <section id="test1">
                     <h2>Section 1</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
                 </section>
 
                 <section id="test2">
                     <h2>Section 2</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
                 </section>
                 <section id="test3">
                     <h2>Section 3</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
+                </section>
+                <section id="test4">
+                    <h2>Section 4</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
+                </section>
+                <section id="test5">
+                    <h2>Section 5</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet consectetur felis, vel fermentum urna. Donec quis tincidunt turpis, pretium venenatis magna. Maecenas euismod velit et laoreet tincidunt. Vivamus rhoncus sollicitudin urna ut lobortis. Nullam tristique ac sem eget bibendum. Mauris tincidunt risus ut efficitur cursus. Maecenas at aliquam leo. Etiam sagittis lorem ut ante condimentum, quis fringilla est rutrum. Phasellus ornare scelerisque ex, vestibulum vulputate massa eleifend eget. Sed nec tellus tellus. Maecenas tempus erat eget libero elementum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum aliquet metus id scelerisque. Vivamus vel velit ante. Sed dolor nisi, pharetra non erat at, suscipit laoreet elit. Fusce volutpat sem vitae augue scelerisque, ut fermentum nulla tempor.</p>
+
                 </section>
             </div>
         </div> <!-- /.row -->

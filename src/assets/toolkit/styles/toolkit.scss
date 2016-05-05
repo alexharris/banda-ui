@@ -24,6 +24,7 @@
  // Colors
  $primary: #3cd986;
  $secondary: #12271a;
+ $grey: #e0eae5;
  $white: #ffffff;
 
  // Buttons
@@ -93,24 +94,35 @@
     border-bottom: 5px solid $white;
 }
 
+
 #banda-sidebar {
-    background-color: $primary;
+    background-color: $grey;
     a {
         color: $secondary;
     }
     ul.banda-nav {
         li.banda-nav-section-title {
             border-top: 4px solid $secondary;
-                        padding: 10px 0;
+            padding: 10px 10px;
+            font-weight: 800;
         }
         ul.banda-nav-section {
 
             li {
                 color: $white;
-                padding: 10px 0;
+
                 border-top: 1px solid $white;
                 &.active {
                     background-color: $white;
+                }
+                a {
+                    width: 100%;
+                    display: block;
+                    padding: 10px;
+                    &:hover {
+                        background-color: lighten($grey, 5%);
+                        text-decoration: none;
+                    };
                 }
             }
         }
