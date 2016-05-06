@@ -8,35 +8,11 @@
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 
+@import 'banda-bs-override';
+
  // Core variables and mixins
  @import "bootstrap/variables";
  @import "bootstrap/mixins";
-
-
-// Bootstrap variable overrides
-
-// Fonts
- @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
- $font-family-sans-serif: 'Source Sans Pro', sans-serif;
- $headings-font-family: 'Source Sans Pro', sans-serif;
- $font-family-base: $font-family-sans-serif;
-
- // Colors
- $primary: #3cd986;
- $secondary: #12271a;
- $grey: #e0eae5;
- $white: #ffffff;
-
- // Buttons
- $btn-default-color: $secondary;
- $btn-default-bg: $primary;
- $btn-default-border: $primary;
-
-// Navbar
- $navbar-default-bg: $primary;
- $navbar-default-border: primary;
- $navbar-default-brand-color: $white;
- $navbar-default-link-color: $white;
 
  // Reset and dependencies
  @import "bootstrap/normalize";
@@ -87,6 +63,15 @@
 
 // Banda
 
+// To pad content for fixed navbar
+body {
+    padding-top: 70px;
+}
+
+section {
+    padding-top: 50px;
+}
+
 .navbar {
     // background-color: $primary;
     border-radius: 0;
@@ -96,7 +81,7 @@
 
 
 #banda-sidebar {
-    background-color: $grey;
+    border: 1px solid $grey;
     a {
         color: $secondary;
     }
@@ -107,19 +92,14 @@
             font-weight: 800;
         }
         ul.banda-nav-section {
-
             li {
-                color: $white;
-
-                border-top: 1px solid $white;
-                &.active {
-                    background-color: $white;
-                }
+                border-top: 1px solid $grey;
                 a {
                     width: 100%;
                     display: block;
                     padding: 10px;
                     &:hover {
+                        border-left: 2px solid $primary;
                         background-color: lighten($grey, 5%);
                         text-decoration: none;
                     };
