@@ -65,7 +65,7 @@
 
 html {
   font-size: 16px;
-}  
+}
 
 section {
     padding-top: 50px;
@@ -86,7 +86,7 @@ section {
     }
     ul.banda-nav {
         li.banda-nav-section-title {
-            border-top: 4px solid $secondary;
+            border-top: 2px solid $primary;
             padding: 10px 10px;
             font-weight: 800;
         }
@@ -98,7 +98,7 @@ section {
                     display: block;
                     padding: 10px;
                     &:hover {
-                        border-left: 2px solid $primary;
+                        border-left: 2px solid $secondary;
                         background-color: lighten($grey, 5%);
                         text-decoration: none;
                     };
@@ -115,4 +115,8 @@ section {
             }
         }
     }
+}
+
+.panel {
+    border-left: 2px solid $primary;
 }

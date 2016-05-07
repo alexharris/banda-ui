@@ -16,6 +16,12 @@ $ npm start
 ```
 Read the [Fabricator Docs](http://fbrctr.github.io/docs) for more info and how to use.
 
+Build the distribution with:
+
+```shell
+npm run build
+```
+
 Use the following to push just the dist to gh-pages
 
 ```shell
