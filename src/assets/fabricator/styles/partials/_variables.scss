@@ -17,7 +17,7 @@ $theme-light: (
 	normal: map-get($base-colors, medium)
 );
 
-$theme: $theme-dark !default;
+$theme: $theme-light !default;
 
 @if (map-get($settings, theme) == 'dark') {
 	$theme: $theme-dark;
