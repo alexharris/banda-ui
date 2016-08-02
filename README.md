@@ -1,8 +1,8 @@
 # BANDA UI
 
-UI Toolkit generator for [Banda Theme](https://github.com/alexharris/banda-theme).
+UI Toolkit generator for [Banda Theme](https://github.com/billandalex/banda-theme).
 
-The generated toolkit can be found [here](http://alexharris.github.io/banda-ui/), and is contained within the 'gh-pages' branch of this repo.
+The generated toolkit can be found [here](http://billandalex.github.io/banda-ui/), and is contained within the 'gh-pages' branch of this repo.
 
 Built with [Fabricator](http://fbrctr.github.io/).
 
