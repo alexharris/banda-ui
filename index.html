@@ -73,16 +73,20 @@
 							<!-- <a href="components.html#button">Button</a> -->
 						</li>
 						<li>
+							<a href="index.html#card">Card</a> 
+							<!-- <a href="components.html#card">Card</a> -->
+						</li>
+						<li>
 							<a href="index.html#colors">Colors</a> 
 							<!-- <a href="components.html#colors">Colors</a> -->
 						</li>
 						<li>
-							<a href="index.html#navbar">Navbar</a> 
-							<!-- <a href="components.html#navbar">Navbar</a> -->
+							<a href="index.html#jumbotron">Jumbotron</a> 
+							<!-- <a href="components.html#jumbotron">Jumbotron</a> -->
 						</li>
 						<li>
-							<a href="index.html#panel">Panel</a> 
-							<!-- <a href="components.html#panel">Panel</a> -->
+							<a href="index.html#navbar">Navbar</a> 
+							<!-- <a href="components.html#navbar">Navbar</a> -->
 						</li>
 						<li>
 							<a href="index.html#sidebar">Sidebar</a> 
@@ -141,11 +145,47 @@
 </div>
 <div class="f-item-preview">
 	<!-- Standard button -->
-<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
 	<pre><code class="language-markup">&lt;!-- Standard button --&gt;
-&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Default&lt;/button&gt;</code></pre>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;</code></pre>
+</div>
+
+
+</div>
+
+
+<div class="f-item-group" id="card">
+
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Card</h2>
+		<div class="f-item-controls">
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
+		</div>
+	</div><div class="f-item-preview">
+	<div class="card" style="width: 18rem;">
+	<img class="card-img-top img-fluid" src="https://placebear.com/600/300" alt="Card image cap">
+	<div class="card-block">
+		<h4 class="card-title">Card title</h4>
+		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		<a href="#" class="btn btn-primary">Go somewhere</a>
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class=&quot;card&quot; style=&quot;width: 18rem;&quot;&gt;
+	&lt;img class=&quot;card-img-top img-fluid&quot; src=&quot;https://placebear.com/600/300&quot; alt=&quot;Card image cap&quot;&gt;
+	&lt;div class=&quot;card-block&quot;&gt;
+		&lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;
+		&lt;p class=&quot;card-text&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card&#x27;s content.&lt;/p&gt;
+		&lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
 </div>
 
 
@@ -167,7 +207,7 @@
 	<div class="f-color-chips">
 	<div class="f-color-chip">
 		<div class="f-color-chip__name">Seafoam</div>
-		<div class="f-color-chip__color">#3cd986</div>
+		<div class="f-color-chip__color">#93EEC1</div>
 	</div>
 	<div class="f-color-chip">
 		<div class="f-color-chip__name">DarkGreen</div>
@@ -187,7 +227,7 @@
 	<pre><code class="language-markup">&lt;div class=&quot;f-color-chips&quot;&gt;
 	&lt;div class=&quot;f-color-chip&quot;&gt;
 		&lt;div class=&quot;f-color-chip__name&quot;&gt;Seafoam&lt;/div&gt;
-		&lt;div class=&quot;f-color-chip__color&quot;&gt;#3cd986&lt;/div&gt;
+		&lt;div class=&quot;f-color-chip__color&quot;&gt;#93EEC1&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;f-color-chip&quot;&gt;
 		&lt;div class=&quot;f-color-chip__name&quot;&gt;DarkGreen&lt;/div&gt;
@@ -201,6 +241,47 @@
 		&lt;div class=&quot;f-color-chip__name&quot;&gt;Grey&lt;/div&gt;
 		&lt;div class=&quot;f-color-chip__color&quot;&gt;#e0eae5&lt;/div&gt;
 	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+
+</div>
+
+
+<div class="f-item-group" id="jumbotron">
+
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Jumbotron</h2>
+		<div class="f-item-controls">
+			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+				<svg>
+					<use xlink:href="#f-icon-notes" />
+				</svg>
+			</span>
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
+		</div>
+	</div><div class="f-item-notes" data-f-toggle="notes">
+	<p>Sidebar with accordion thingy, goes with other stuff inside a row</p>
+
+</div>
+<div class="f-item-preview">
+	<div class="jumbotron jumbotron-fluid" style="background-color: #fff;">
+	<div class="container">
+		<h2 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class=&quot;jumbotron jumbotron-fluid&quot; style=&quot;background-color: #fff;&quot;&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;h2 class=&quot;display-4&quot;&gt;Fluid jumbotron&lt;/h1&gt;
+    &lt;p class=&quot;lead&quot;&gt;This is a modified jumbotron that occupies the entire horizontal space of its parent.&lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;</code></pre>
 </div>
 
@@ -225,103 +306,57 @@
 			</span>
 		</div>
 	</div><div class="f-item-notes" data-f-toggle="notes">
-	<p>Generic navbar. Add <code>.navbar-fixed-top</code> to fix to top.<br>
+	<p>Generic navbar. Add <code>.navbar-fixed-top</code> to fix to top.
 Make sure to add top padding on body to offset content.</p>
 
 </div>
 <div class="f-item-preview">
-	<nav class="navbar navbar-default">
-	<div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-			<a class="navbar-brand" href="#">BANDA</a>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">LINK</a></li>
-				<li><a href="#">LINK 2</a></li>
-			</ul>
-		</div>
-		<!-- /.navbar-collapse -->
+	<nav class="navbar navbar-light bg-primary">
+	<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+      &#9776;
+    </button>
+	<div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+		<a class="navbar-brand" href="#">BANDA</a>
+		<ul class="nav navbar-nav pull-xs-right">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Features</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Pricing</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			</li>
+		</ul>
 	</div>
-	<!-- /.container-fluid -->
 </nav>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;nav class=&quot;navbar navbar-default&quot;&gt;
-	&lt;div class=&quot;container-fluid&quot;&gt;
-		&lt;!-- Brand and toggle get grouped for better mobile display --&gt;
-		&lt;div class=&quot;navbar-header&quot;&gt;
-			&lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#bs-example-navbar-collapse-1&quot; aria-expanded=&quot;false&quot;&gt;
-        &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
-        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
-        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
-        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
-      &lt;/button&gt;
-			&lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;BANDA&lt;/a&gt;
-		&lt;/div&gt;
-
-		&lt;!-- Collect the nav links, forms, and other content for toggling --&gt;
-		&lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;bs-example-navbar-collapse-1&quot;&gt;
-			&lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
-				&lt;li&gt;&lt;a href=&quot;#&quot;&gt;LINK&lt;/a&gt;&lt;/li&gt;
-				&lt;li&gt;&lt;a href=&quot;#&quot;&gt;LINK 2&lt;/a&gt;&lt;/li&gt;
-			&lt;/ul&gt;
-		&lt;/div&gt;
-		&lt;!-- /.navbar-collapse --&gt;
+	<pre><code class="language-markup">&lt;nav class=&quot;navbar navbar-light bg-primary&quot;&gt;
+	&lt;button class=&quot;navbar-toggler hidden-sm-up&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#exCollapsingNavbar2&quot; aria-controls=&quot;exCollapsingNavbar2&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+      &amp;#9776;
+    &lt;/button&gt;
+	&lt;div class=&quot;collapse navbar-toggleable-xs&quot; id=&quot;exCollapsingNavbar2&quot;&gt;
+		&lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;BANDA&lt;/a&gt;
+		&lt;ul class=&quot;nav navbar-nav pull-xs-right&quot;&gt;
+			&lt;li class=&quot;nav-item active&quot;&gt;
+				&lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Home &lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li class=&quot;nav-item&quot;&gt;
+				&lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Features&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li class=&quot;nav-item&quot;&gt;
+				&lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Pricing&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li class=&quot;nav-item&quot;&gt;
+				&lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;About&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
 	&lt;/div&gt;
-	&lt;!-- /.container-fluid --&gt;
 &lt;/nav&gt;</code></pre>
-</div>
-
-
-</div>
-
-
-<div class="f-item-group" id="panel">
-
-	<div class="f-item-heading-group" data-f-toggle="labels">
-		<h2 class="f-item-heading">Panel</h2>
-		<div class="f-item-controls">
-			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
-				<svg>
-					<use xlink:href="#f-icon-code" />
-				</svg>
-			</span>
-		</div>
-	</div><div class="f-item-preview">
-	<div class="panel panel-default">
-	<div class="panel-heading">
-		<h3 class="panel-title">Panel title</h3>
-	</div>
-	<div class="panel-body">
-		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer semper felis at nisi hendrerit, eget rutrum libero sodales. Maecenas auctor purus neque, quis tempor arcu pulvinar et. Donec ut nisl sed sapien cursus
-		ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eget lectus ut leo sagittis volutpat. Pellentesque mattis vulputate lacus, eget pellentesque lectus iaculis a. Nullam justo nunc, pharetra et urna
-		et, consequat tempus urna.
-	</div>
-	<div class="panel-footer">Panel footer</div>
-</div>
-</div>
-<div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;div class=&quot;panel panel-default&quot;&gt;
-	&lt;div class=&quot;panel-heading&quot;&gt;
-		&lt;h3 class=&quot;panel-title&quot;&gt;Panel title&lt;/h3&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;panel-body&quot;&gt;
-		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer semper felis at nisi hendrerit, eget rutrum libero sodales. Maecenas auctor purus neque, quis tempor arcu pulvinar et. Donec ut nisl sed sapien cursus
-		ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eget lectus ut leo sagittis volutpat. Pellentesque mattis vulputate lacus, eget pellentesque lectus iaculis a. Nullam justo nunc, pharetra et urna
-		et, consequat tempus urna.
-	&lt;/div&gt;
-	&lt;div class=&quot;panel-footer&quot;&gt;Panel footer&lt;/div&gt;
-&lt;/div&gt;</code></pre>
 </div>
 
 
@@ -349,7 +384,7 @@ Make sure to add top padding on body to offset content.</p>
 
 </div>
 <div class="f-item-preview">
-	<div class="col-xs-12 col-sm-3" id="banda-sidebar-container">
+	<div class="col-xs-12" id="banda-sidebar-container">
 	<div id="banda-sidebar">
 		<ul class="list-unstyled banda-nav nav">
 			<li class="banda-nav-section-title">Section 1</li>
@@ -372,7 +407,7 @@ Make sure to add top padding on body to offset content.</p>
 </div>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;div class=&quot;col-xs-12 col-sm-3&quot; id=&quot;banda-sidebar-container&quot;&gt;
+	<pre><code class="language-markup">&lt;div class=&quot;col-xs-12&quot; id=&quot;banda-sidebar-container&quot;&gt;
 	&lt;div id=&quot;banda-sidebar&quot;&gt;
 		&lt;ul class=&quot;list-unstyled banda-nav nav&quot;&gt;
 			&lt;li class=&quot;banda-nav-section-title&quot;&gt;Section 1&lt;/li&gt;
@@ -414,38 +449,35 @@ Make sure to add top padding on body to offset content.</p>
 	<table class="table table-bordered">
 	<thead>
 		<tr>
-			<th>Table Heading 1</th>
-			<th>Table Heading 2</th>
-			<th>Table Heading 3</th>
+			<th>#</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Username</th>
 		</tr>
 	</thead>
-	<tfoot>
-		<tr>
-			<th>Table Footer 1</th>
-			<th>Table Footer 2</th>
-			<th>Table Footer 3</th>
-		</tr>
-	</tfoot>
 	<tbody>
 		<tr>
-			<td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
+			<th scope="row">1</th>
+			<td>Mark</td>
+			<td>Otto</td>
+			<td>@mdo</td>
 		</tr>
 		<tr>
-			<td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
+			<th scope="row">2</th>
+			<td>Mark</td>
+			<td>Otto</td>
+			<td>@TwBootstrap</td>
 		</tr>
 		<tr>
-			<td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
+			<th scope="row">3</th>
+			<td>Jacob</td>
+			<td>Thornton</td>
+			<td>@fat</td>
 		</tr>
 		<tr>
-			<td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
+			<th scope="row">4</th>
+			<td colspan="2">Larry the Bird</td>
+			<td>@twitter</td>
 		</tr>
 	</tbody>
 </table>
@@ -454,38 +486,35 @@ Make sure to add top padding on body to offset content.</p>
 	<pre><code class="language-markup">&lt;table class=&quot;table table-bordered&quot;&gt;
 	&lt;thead&gt;
 		&lt;tr&gt;
-			&lt;th&gt;Table Heading 1&lt;/th&gt;
-			&lt;th&gt;Table Heading 2&lt;/th&gt;
-			&lt;th&gt;Table Heading 3&lt;/th&gt;
+			&lt;th&gt;#&lt;/th&gt;
+			&lt;th&gt;First Name&lt;/th&gt;
+			&lt;th&gt;Last Name&lt;/th&gt;
+			&lt;th&gt;Username&lt;/th&gt;
 		&lt;/tr&gt;
 	&lt;/thead&gt;
-	&lt;tfoot&gt;
-		&lt;tr&gt;
-			&lt;th&gt;Table Footer 1&lt;/th&gt;
-			&lt;th&gt;Table Footer 2&lt;/th&gt;
-			&lt;th&gt;Table Footer 3&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/tfoot&gt;
 	&lt;tbody&gt;
 		&lt;tr&gt;
-			&lt;td&gt;Table Cell 1&lt;/td&gt;
-			&lt;td&gt;Table Cell 2&lt;/td&gt;
-			&lt;td&gt;Table Cell 3&lt;/td&gt;
+			&lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+			&lt;td&gt;Mark&lt;/td&gt;
+			&lt;td&gt;Otto&lt;/td&gt;
+			&lt;td&gt;@mdo&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
-			&lt;td&gt;Table Cell 1&lt;/td&gt;
-			&lt;td&gt;Table Cell 2&lt;/td&gt;
-			&lt;td&gt;Table Cell 3&lt;/td&gt;
+			&lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+			&lt;td&gt;Mark&lt;/td&gt;
+			&lt;td&gt;Otto&lt;/td&gt;
+			&lt;td&gt;@TwBootstrap&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
-			&lt;td&gt;Table Cell 1&lt;/td&gt;
-			&lt;td&gt;Table Cell 2&lt;/td&gt;
-			&lt;td&gt;Table Cell 3&lt;/td&gt;
+			&lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+			&lt;td&gt;Jacob&lt;/td&gt;
+			&lt;td&gt;Thornton&lt;/td&gt;
+			&lt;td&gt;@fat&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
-			&lt;td&gt;Table Cell 1&lt;/td&gt;
-			&lt;td&gt;Table Cell 2&lt;/td&gt;
-			&lt;td&gt;Table Cell 3&lt;/td&gt;
+			&lt;th scope=&quot;row&quot;&gt;4&lt;/th&gt;
+			&lt;td colspan=&quot;2&quot;&gt;Larry the Bird&lt;/td&gt;
+			&lt;td&gt;@twitter&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;</code></pre>
