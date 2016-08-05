@@ -10,56 +10,71 @@
 
 @import 'banda-bs-override';
 
- // Core variables and mixins
- @import "bootstrap/variables";
- @import "bootstrap/mixins";
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
- // Reset and dependencies
- @import "bootstrap/normalize";
- @import "bootstrap/print";
- @import "bootstrap/glyphicons";
+// Utility classes
+@import "bootstrap/utilities";
 
- // Core CSS
- @import "bootstrap/scaffolding";
- @import "bootstrap/type";
- @import "bootstrap/code";
- @import "bootstrap/grid";
- @import "bootstrap/tables";
- @import "bootstrap/forms";
- @import "bootstrap/buttons";
+// Reset and dependencies
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+// @import "bootstrap/glyphicons";
 
- // Components
- @import "bootstrap/component-animations";
- @import "bootstrap/dropdowns";
- @import "bootstrap/button-groups";
- @import "bootstrap/input-groups";
- @import "bootstrap/navs";
- @import "bootstrap/navbar";
- @import "bootstrap/breadcrumbs";
- @import "bootstrap/pagination";
- @import "bootstrap/pager";
- @import "bootstrap/labels";
- @import "bootstrap/badges";
- @import "bootstrap/jumbotron";
- @import "bootstrap/thumbnails";
- @import "bootstrap/alerts";
- @import "bootstrap/progress-bars";
- @import "bootstrap/media";
- @import "bootstrap/list-group";
- @import "bootstrap/panels";
- @import "bootstrap/responsive-embed";
- @import "bootstrap/wells";
- @import "bootstrap/close";
+// Core CSS
+// @import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
 
- // Components w/ JavaScript
- @import "bootstrap/modals";
- @import "bootstrap/tooltip";
- @import "bootstrap/popovers";
- @import "bootstrap/carousel";
+// Components
+// @import "bootstrap/component-animations";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/nav";
+@import "bootstrap/card";
+@import "bootstrap/navbar";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/custom-forms";
+// @import "bootstrap/pager";
+// @import "bootstrap/labels";
+// @import "bootstrap/badges";
+@import "bootstrap/jumbotron";
+// @import "bootstrap/thumbnails";
+@import "bootstrap/alert";
+@import "bootstrap/animation";
+@import "bootstrap/images";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/reboot";
+@import "bootstrap/tags";
+// @import "bootstrap/panels";
+@import "bootstrap/responsive-embed";
+// @import "bootstrap/wells";
+@import "bootstrap/close";
 
- // Utility classes
- @import "bootstrap/utilities";
- @import "bootstrap/responsive-utilities";
+// Components w/ JavaScript
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+
+//  grid??
+
+@import "bootstrap/bootstrap-flex";
+@import "bootstrap/bootstrap-grid";
+@import "bootstrap/bootstrap-reboot";
+@import "bootstrap/bootstrap";
+
+
+ // @import "bootstrap/responsive-utilities";
 
 // Banda
 
@@ -82,11 +97,12 @@ section {
 #banda-sidebar {
     border: 1px solid $grey;
     a {
-        color: $secondary;
+        color: $brand-secondary;
     }
     ul.banda-nav {
+        border-left: 2px solid $brand-primary;
         li.banda-nav-section-title {
-            border-top: 2px solid $primary;
+            border-top: 1px solid $grey;
             padding: 10px 10px;
             font-weight: 800;
         }
@@ -97,9 +113,10 @@ section {
                     width: 100%;
                     display: block;
                     padding: 10px;
+                    background-color: lighten($grey, 8%);
                     &:hover {
-                        border-left: 2px solid $secondary;
-                        background-color: lighten($grey, 5%);
+                        border-left: 2px solid $brand-secondary;
+                        background-color: lighten($grey, 2%);
                         text-decoration: none;
                     };
                 }
@@ -117,6 +134,15 @@ section {
     }
 }
 
-.panel {
-    border-left: 2px solid $primary;
+.table {
+    border-left: 2px solid $brand-primary;
+}
+
+.jumbotron {
+    border: 1px solid $grey;
+    border-left: 2px solid $brand-primary;
+}
+
+.card-block {
+    border-left: 2px solid $brand-primary;
 }
